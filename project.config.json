@@ -2,13 +2,17 @@
 	"miniprogramRoot": "miniprogram/",
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"enhance": true,
 		"postcss": true,
+		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
 		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -17,15 +21,25 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"bundle": true
+		"bundle": true,
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false,
+		"compileHotReLoad": false,
+		"nodeModules": true
 	},
-	"appid": "wxeccf6846de2a8a9b",
+	"appid": "wx624c2ef2a8877f5b",
 	"projectname": "%E4%BA%91%E7%AD%94%E9%A2%98",
-	"libVersion": "2.8.2",
+	"libVersion": "2.8.0",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"compileType": "miniprogram",
 	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"permissions": {
+		"openapi": [
+			"openapi.subscribeMessage.send"
+		]
+	},
 	"condition": {
 		"search": {
 			"current": -1,
